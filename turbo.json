@@ -12,11 +12,11 @@
 			"cache": false,
 			"persistent": true
 		},
-		"biome:check": {
-			"dependsOn": ["^biome:check"]
+		"biome-check": {
+			"dependsOn": ["^biome-check"]
 		},
-		"biome:check:fix": {
-			"dependsOn": ["^biome:check:fix"]
+		"biome-check:fix": {
+			"dependsOn": ["^biome-check:fix"]
 		},
 		"type-check": {
 			"dependsOn": ["^type-check"]

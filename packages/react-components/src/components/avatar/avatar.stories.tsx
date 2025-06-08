@@ -3,7 +3,6 @@ import { Avatar, AvatarFallback, AvatarImage } from "./avatar";
 
 export default {
 	component: Avatar,
-	subcomponents: { AvatarImage, AvatarFallback },
 } satisfies Meta<typeof Avatar>;
 
 type Story = StoryObj<typeof Avatar>;

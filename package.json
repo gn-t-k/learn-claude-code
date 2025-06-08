@@ -7,8 +7,8 @@
 	"scripts": {
 		"build": "turbo build",
 		"dev": "turbo dev",
-		"biome:check": "turbo biome:check",
-		"biome:check:fix": "turbo biome:check:fix",
+		"biome-check": "turbo biome-check",
+		"biome-check:fix": "turbo biome-check:fix",
 		"type-check": "turbo type-check"
 	},
 	"keywords": [],
