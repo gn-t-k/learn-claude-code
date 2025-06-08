@@ -1,0 +1,22 @@
+{
+	"name": "learn-claude-code",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"packageManager": "pnpm@9.0.0",
+	"scripts": {
+		"build": "turbo build",
+		"dev": "turbo dev",
+		"biome:check": "turbo biome:check",
+		"biome:check:fix": "turbo biome:check:fix",
+		"type-check": "turbo type-check"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@tsconfig/strictest": "2.0.5",
+		"turbo": "^2.5.4"
+	}
+}

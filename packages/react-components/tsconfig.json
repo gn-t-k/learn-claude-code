@@ -1,0 +1,12 @@
+{
+	"extends": [
+		"@tsconfig/strictest/tsconfig.json",
+		"@tsconfig/create-react-app/tsconfig.json"
+	],
+	"compilerOptions": {
+		"jsx": "react-jsx",
+		"module": "ES2022",
+		"moduleResolution": "bundler"
+	},
+	"include": ["**/*.ts", "**/*.tsx"]
+}

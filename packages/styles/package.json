@@ -1,0 +1,16 @@
+{
+	"name": "@packages/styles",
+	"type": "module",
+	"private": true,
+	"style": "tailwind.css",
+	"files": ["tailwind.css"],
+	"scripts": {
+		"clean": "rm -rf node_modules",
+		"biome:check": "biome check .",
+		"biome:check:fix": "biome check . --fix"
+	},
+	"dependencies": {
+		"tailwindcss": "4.0.0",
+		"tw-animate-css": "1.2.9"
+	}
+}

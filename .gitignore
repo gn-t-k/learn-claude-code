@@ -1,0 +1,26 @@
+# 依存関係
+node_modules
+
+# 環境変数
+.env
+
+# Turborepo
+.turbo
+
+# ビルド出力
+build/
+dist/
+
+# Viteキャッシュ
+.vite/
+
+# OSファイル
+.DS_Store
+
+# Cloudflare Wrangler
+.wrangler
+
+# Storybookログ
+*storybook.log
+
+storybook-static
