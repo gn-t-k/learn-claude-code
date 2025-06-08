@@ -6,8 +6,8 @@
 	"files": ["tailwind.css"],
 	"scripts": {
 		"clean": "rm -rf node_modules",
-		"biome:check": "biome check .",
-		"biome:check:fix": "biome check . --fix"
+		"biome-check": "biome check .",
+		"biome-check:fix": "biome check . --fix"
 	},
 	"dependencies": {
 		"tailwindcss": "4.0.0",

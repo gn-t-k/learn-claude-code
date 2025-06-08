@@ -7,14 +7,12 @@
 	"main": "dist/index.js",
 	"module": "dist/index.esm.js",
 	"types": "dist/index.d.ts",
-	"files": [
-		"dist"
-	],
+	"files": ["dist"],
 	"scripts": {
 		"build": "tsup src/index.ts --format cjs,esm --dts",
 		"dev": "tsup src/index.ts --format cjs,esm --dts --watch",
 		"type-check": "tsc --noEmit",
-		"biome:check": "biome check .",
+		"biome-check": "biome check .",
 		"storybook": "storybook dev -p 6006",
 		"build-storybook": "storybook build",
 		"chromatic": "chromatic"
