@@ -25,5 +25,14 @@
 	},
 	"editor.tabSize": 4,
 	"editor.detectIndentation": false,
-	"cSpell.words": ["Dismissable", "subcomponents", "Turborepo", "vite"]
+	"cSpell.words": [
+		"Dismissable",
+		"libsql",
+		"paralleldrive",
+		"subcomponents",
+		"Turborepo",
+		"turso",
+		"unixepoch",
+		"vite"
+	]
 }
